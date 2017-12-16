@@ -1,0 +1,187 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: courier new;
+}
+
+.colum-1,
+.colum-sm-1,
+.colum-md-1,
+.colum-lg-1,
+.colum-xl-1 {
+		width: 8.3333333333%;
+}
+.colum-2,
+.colum-sm-2,
+.colum-md-2,
+.colum-lg-2,
+.colum-xl-2 {
+		width:16.6666666666%;
+}
+.colum-3, 
+.colum-sm-3,
+.colum-md-3,
+.colum-lg-3,
+.colum-xl-3 {
+		width: 24.9999999999%;
+}
+
+.colum-4, 
+.colum-sm-4,
+.colum-md-4,
+.colum-lg-4,
+.colum-xl-4 {
+		width: 33.3333333332%;
+}
+.colum-5, 
+.colum-sm-5,
+.colum-md-5,
+.colum-lg-5,
+.colum-xl-5 {
+		width: 41.6666666665%;
+}
+.colum-6, 
+.colum-sm-6,
+.colum-md-6,
+.colum-lg-6,
+.colum-xl-6 {
+		width: 49.9999999998%;
+}
+.colum-7, 
+.colum-sm-7,
+.colum-md-7,
+.colum-lg-7,
+.colum-xl-7 {
+		width: 58.3333333331%;
+}
+.colum-8, 
+.colum-sm-8,
+.colum-md-8,
+.colum-lg-8,
+.colum-xl-8 {
+		width: 66.6666666664%;
+}
+.colum-9, 
+.colum-sm-9,
+.colum-md-9,
+.colum-lg-9,
+.colum-xl-9 {
+width: 74.9999999997%;
+}
+.colum-10, 
+.colum-sm-10,
+.colum-md-10,
+.colum-lg-10,
+.colum-xl-10 {
+width: 83.333333333%;
+}
+.colum-11, 
+.colum-sm-11,
+.colum-md-11,
+.colum-lg-11,
+.colum-xl-11 {
+width: 91.6666666663%;
+}
+.colum-12,
+.colum-sm-12,
+.colum-md-12,
+.colum-lg-12,
+.colum-xl-12 {
+width: 100%;
+}
+
+@media (max-width: 667px) {
+	[class*="colum-lg"],
+	[class*="colum-xl"] {
+		width: 100%;
+	}	
+}
+[class*="colum-"] {
+	padding: 30px ;
+	float: left;
+}
+
+.row::after {
+	display: table;
+	content: "";
+	clear: both;
+}
+body{
+	
+}
+
+.row main{
+	background-color: white;
+}
+
+header{
+	background-color: black;
+	width: 100%;
+	color: #E8D55B;
+	height: 90px;
+	padding: 15px;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+nav ul {
+	text-align: center;
+	padding: 0px; 
+	margin: 0px;
+	background-color: #E8D55B;
+
+    
+}
+
+nav li{
+	list-style-type: none;
+	color: #B53583;
+	background: #E8D55B;
+	margin-bottom: 10px;
+	text-align: center;
+	display: inline;
+	height: 33px;
+	padding-top: 6px;
+	transition: background-color 2s ease-out;
+	font-weight: 600px;
+	float: left; 
+	margin-left: 60px;
+
+}
+
+li:hover {
+	background-color: #74E4EC;
+	color: #B53583;
+	-webkit-transition: width 2s;
+}
+
+.foto_1{
+	/*background-color: red;*/
+	height: 200px;
+}
+
+#container-foto-2 {
+	height: 200px;
+	-webkit-transition: height 1s ease; 
+    transition: height 1s ease;
+}
+#container-foto-2:hover{
+	height: 400px;
+}
+
+
+#foto_2{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/gato.jpg);
+}
+.foto_3{
+	background-color: #74E4EC;
+	height: 200px;
+}
+
